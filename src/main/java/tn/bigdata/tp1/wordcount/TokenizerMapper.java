@@ -1,4 +1,4 @@
-package tn.bigdata.tp1;
+package tn.bigdata.tp1.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -12,10 +12,12 @@ public class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
     private Text word = new Text();
 
     public void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
+        System.out.println("Value : " + value);
         StringTokenizer itr = new StringTokenizer(value.toString());
         while (itr.hasMoreTokens()) {
             word.set(itr.nextToken());
             context.write(word, one);
+            System.out.println("Word : " + word);
         }
     }
 }

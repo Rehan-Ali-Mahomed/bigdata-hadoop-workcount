@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30274699-4ff1-43fa-8091-42faea1eec0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/IntSumReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/wordcount/IntSumReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/TokenizerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/wordcount/TokenizerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/wordcount/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/input/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/part-r-00000" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +55,27 @@
       <recent name="C:\Users\rehan\OneDrive\ESIEA\5A\Architecture Big data\TP3 - Hadoop\MapReduce - Wordcount\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tn.bigdata.tp1.marketbenefits" />
       <recent name="tn.bigdata.tp1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MarketBenefits Application">
+    <configuration name="MarketBenefits Application" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tn.bigdata.tp1.marketbenefits.MarketBenefits" />
+      <module name="MapReduce - Wordcount" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/resources/input/file.txt src/main/resources/output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.bigdata.tp1.Test" />
       <module name="MapReduce - Wordcount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tn.bigdata.tp1.*" />
+          <option name="PATTERN" value="tn.bigdata.tp1.marketbenefits.SplitterMapper" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,13 +86,18 @@
     <configuration name="WordCount Application" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tn.bigdata.tp1.WordCount" />
+      <option name="MAIN_CLASS_NAME" value="tn.bigdata.tp1.wordcount.WordCount" />
       <module name="MapReduce - Wordcount" />
       <option name="PROGRAM_PARAMETERS" value="src/main/resources/input/file.txt src/main/resources/output" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WordCount Application" />
+      <item itemvalue="Application.MarketBenefits Application" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
@@ -103,10 +129,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
+        <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/wordcount/IntSumReducer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tn/bigdata/tp1/wordcount/IntSumReducer.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

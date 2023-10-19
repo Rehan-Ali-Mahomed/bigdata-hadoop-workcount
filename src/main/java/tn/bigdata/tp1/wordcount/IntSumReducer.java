@@ -1,4 +1,4 @@
-package tn.bigdata.tp1;
+package tn.bigdata.tp1.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -12,7 +12,7 @@ public class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable>
     public void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
         int sum = 0;
         for (IntWritable val : values) {
-            System.out.println("value: " + val.get());
+            System.out.println("key : " + key + " | value: " + val.get());
             sum += val.get();
         }
         System.out.println("--> Sum = " + sum);

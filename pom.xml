@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hadoop.mapreduce</groupId>
-    <artifactId>wordcount</artifactId>
-    <version>1</version>
+    <artifactId>marketbenefits</artifactId>
+    <version>1.2</version>
     <build>
         <plugins>
             <plugin>
